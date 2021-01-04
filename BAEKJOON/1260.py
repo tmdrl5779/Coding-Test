@@ -1,4 +1,4 @@
-from collections import  deque
+from collections import deque
 
 n, m, v = map(int, input().split())
 
