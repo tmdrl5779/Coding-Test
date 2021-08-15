@@ -2,7 +2,7 @@ package com.company.level_1;
 
 import java.util.*;
 
-public class Weekly {
+public class 상호평가 {
 
     //8월 2주차 문제
     public String solution(int[][] scores) {
