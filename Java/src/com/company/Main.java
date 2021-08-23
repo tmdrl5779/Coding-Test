@@ -11,8 +11,8 @@ import java.util.regex.Pattern;
 public class Main {
 
     public static void main(String[] args) {
-        튜플 test = new 튜플();
-        test.solution("{{2},{2,1},{2,1,3},{2,1,3,4}}");
+        가장큰수 test = new 가장큰수();
+        test.solution(new int[]{303, 30});
 
     }
 }
