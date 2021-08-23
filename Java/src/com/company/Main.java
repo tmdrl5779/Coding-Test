@@ -1,15 +1,17 @@
 package com.company;
 
-import com.company.level2.문자열압축;
-import com.company.level2.오픈채팅방;
-import com.company.level2.카카오프렌즈컬러링북;
+import com.company.level2.*;
+import com.company.level3.퍼즐조각채우기;
+
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Main {
 
     public static void main(String[] args) {
-        카카오프렌즈컬러링북 test = new 카카오프렌즈컬러링북();
-        test.solution(6, 4, new int[][]{
-                {1, 1, 1, 0}, {1, 2, 2, 0}, {1, 0, 0, 1}, {0, 0, 0, 1}, {0, 0, 0, 3}, {0, 0, 0, 3}
-        });
+        퍼즐조각채우기 test = new 퍼즐조각채우기();
+        test.solution(new int[][]{{1,1,0,0,1,0},{0,0,1,0,1,0},{0,1,1,0,0,1},{1,1,0,1,1,1},{1,0,0,0,1,0},{0,1,1,1,0,0}},
+            new int[][]{{1,0,0,1,1,0},{1,0,1,0,1,0},{0,1,1,0,1,1},{0,0,1,0,0,0},{1,1,0,1,1,0},{0,1,0,0,0,0}});
     }
 }
