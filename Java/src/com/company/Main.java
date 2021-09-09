@@ -13,8 +13,7 @@ import java.util.regex.Pattern;
 public class Main {
 
     public static void main(String[] args) {
-        _11657번 test = new _11657번();
-
-        test.solution(new int[][]{{1, 2, 4}, {1, 2, 3}}, 3, 2);
+        다리를지나는트럭 test = new 다리를지나는트럭();
+        test.solution(100,100, new int[]{10});
     }
 }
