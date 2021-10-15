@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        삼각달팽이 test = new 삼각달팽이();
-        test.solution(4);
+        구명보트 test = new 구명보트();
+        test.solution(new int[]{70, 80, 50}, 1);
     }
 }
