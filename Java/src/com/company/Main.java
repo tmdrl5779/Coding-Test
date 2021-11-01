@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        교점에별만들기 test = new 교점에별만들기();
-        test.solution(new int[][]{{2, -1, 4}, {-2, -1, 4}, {0, -1, 1}, {5, -8, -12}, {5, 8, 12}});
+        스킬트리 test = new 스킬트리();
+        test.solution("CBD",new String[]{"BACDE", "CBADF", "AECB", "BDA"});
     }
 }
