@@ -3,11 +3,15 @@ package com.company;
 
 import com.company.level2.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        스킬트리 test = new 스킬트리();
-        test.solution("CBD",new String[]{"BACDE", "CBADF", "AECB", "BDA"});
+        방금그곡 test = new 방금그곡();
+        test.solution("ABC",new String[]{"12:00,12:14,HELLO,C#DEFGAB", "13:00,13:05,WORLD,ABCDEF"});
+
     }
 }
