@@ -4,14 +4,16 @@ package com.company;
 import com.company.level2.*;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        방금그곡 test = new 방금그곡();
-        test.solution("ABC",new String[]{"12:00,12:14,HELLO,C#DEFGAB", "13:00,13:05,WORLD,ABCDEF"});
+        가장큰사각형찾기 test = new 가장큰사각형찾기();
+        test.solution(new int[][]{{0, 1, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 1}, {0, 0, 1, 0}});
 
     }
 }
