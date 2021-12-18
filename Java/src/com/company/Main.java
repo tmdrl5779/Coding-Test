@@ -12,8 +12,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        가장큰사각형찾기 test = new 가장큰사각형찾기();
-        test.solution(new int[][]{{0, 1, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 1}, {0, 0, 1, 0}});
+        압축 test = new 압축();
+        test.solution("KAKAO");
 
     }
 }
