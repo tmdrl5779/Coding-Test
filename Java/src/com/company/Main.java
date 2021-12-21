@@ -12,8 +12,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        압축 test = new 압축();
-        test.solution("KAKAO");
+        올바른괄호 test = new 올바른괄호();
+        test.solution(")()(");
 
     }
 }
