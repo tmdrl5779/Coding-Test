@@ -12,8 +12,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        올바른괄호 test = new 올바른괄호();
-        test.solution(")()(");
+        k진수에서소수개수구하기 test = new k진수에서소수개수구하기();
+        test.solution(437674, 3);
 
     }
 }
